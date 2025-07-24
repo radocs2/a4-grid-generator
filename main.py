@@ -9,7 +9,7 @@ os.makedirs(directory_path, exist_ok=True)
 
 st.cache_data.clear()
 
-st.header('Gerador de múltplas imagens em folha A4')
+st.header('Gerador de múltiplas imagens em folha A4')
 
 if "uploader_key" not in st.session_state:
     st.session_state["uploader_key"] = 0
